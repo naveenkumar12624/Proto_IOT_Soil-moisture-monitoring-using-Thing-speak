@@ -1,4 +1,4 @@
-# Uploading Soil moisture sensor data in Thing Speak cloud
+# EX.NO-09 - Uploading Soil moisture sensor data in Thing Speak cloud
 
 # AIM:
 To upload the Soil moisture senso data in the Thing speak using an ESP32 controller.
@@ -34,18 +34,14 @@ Internet of Things (IoT) describes an emerging trend where a large number of emb
 
 ![image](https://user-images.githubusercontent.com/71547910/235334044-c01d4261-d46f-4f62-b07f-72a7b6fce5d5.png)
 
-### Sending Data to Cloud with ESP32 and ThingSpeak
-
+### Sending Data to Cloud with ESP32 and ThingSpea
 ThingSpeak is an Internet of Things (IoT) analytics platform that allows users to collect, analyze, and visualize data from sensors or devices connected to the Internet. It is a cloud-based platform that provides APIs for storing and retrieving data, as well as tools for data analysis and visualization.The Internet of Things ( or IoT) is a network of interconnected computing devices such as digital machines, automobiles with built-in sensors, or humans with unique identifiers and the ability to communicate data over a network without human intervention.Hello readers, I hope you all are doing great. In this tutorial, we will learn how to send sensor readings from ESP32 to the ThingSpeak cloud. Here we will use the ESP32’s internal sensor like hall-effect sensor and temperature sensor to observe the data and then will share that data cloud.
 
 ### What is ThingSpeak?
-
 ![image](https://user-images.githubusercontent.com/71547910/235333909-29d2e831-9fe5-4afd-b18d-f1e5d2e32518.png)
-
 It is an open data platform for IoT (Internet of Things). ThingSpeak is a web service operated by MathWorks where we can send sensor readings/data to the cloud. We can also visualize and act on the data (calculate the data) posted by the devices to ThingSpeak. The data can be stored in either private or public channels.ThingSpeak is frequently used for internet of things prototyping and proof of concept systems that require analytics.
 
 ### Features Of ThingSpeak
-
 ThingSpeak service enables users to share analyzed data through public channels: </br>
 ThingSpeak allows professionals to prepare and analyze data for their businesses: </br>
 ThingSpeak updates various ThingSpeak channels using MQTT and REST APIs: </br>
@@ -61,8 +57,7 @@ Automatically act on your data and communicate using third-party services like T
 
 
 # PROGRAM:
-
-`````
+```c
 #define in1 6
 #define in2 7
 #define button 4
@@ -94,16 +89,12 @@ void loop() {
   }
   
 }
-```````
+```
 
 # CIRCUIT DIAGRAM:
-
 ![280510746-d1172922-a971-473d-9295-a875b81d7b26](https://github.com/Thenmozhi-Palanisamy/Soil-moisture-monitoring-using-Thing-speak/assets/95198708/2d9d6496-551d-4d1e-9858-07fd85696642)
 
-
 # OUTPUT:
-
-
 ![280510763-e36879a7-68b6-46c2-bbeb-c491d96242c8](https://github.com/Thenmozhi-Palanisamy/Soil-moisture-monitoring-using-Thing-speak/assets/95198708/d785b01a-be2a-41a6-bf99-3739a4dad558)
 
 # RESULT:
